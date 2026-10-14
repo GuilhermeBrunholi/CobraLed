@@ -1,0 +1,29 @@
+# .NET build output (including test projects)
+bin/
+obj/
+
+# IDE and user-specific settings
+.vs/
+.idea/
+*.user
+*.suo
+*.sln.docstates
+
+# Test results and coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Raw USB captures
+*.pcap
+*.pcapng
+
+# OS files
+Thumbs.db
+.DS_Store
